@@ -1,0 +1,24 @@
+#######################################################################################
+#
+#       Welcome to Chat Channels configuration, This is where you can change
+#       Basic settings that will affect how the plugin preforms.
+#       This plugin does have database support; see 'Storage' for more information.
+#
+#######################################################################################
+
+Storage:
+  # Visit 'Plugins/ChatChannels/Lang/' to see the supported languages.
+  Language File: "en_US"
+
+# How many blocks around the player will people receive a message
+# !! If -1 it sends to all players inside of world.
+local-channel-range: 20
+whisper-channel-range: 3
+
+# This will take into account the players full display name e.g <Owner darkwinged>
+chat-format: "<%player%>%message%"
+
+world-filter:
+  - fuck
+  - shit
+  - cunt

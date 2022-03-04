@@ -1,0 +1,20 @@
+name: ChatChannels
+version: '${project.version}'
+main: me.darkwinged.ChatChannels.Main
+api-version: 1.13
+authors: [ darkwinged ]
+commands:
+  channel:
+    aliases:
+      - channels
+    description: Allows administartors to add and remove channels.
+  chatchannel:
+    description: Allows administartors to reload configuration files.
+  shout:
+    description: Allows players to chat to entire server while not in a global channel.
+  whisper:
+    description: Allows plyers to whisper to people.
+  chatfilter:
+    description: Allows players to enable chat filter.
+  chat:
+    description: Allows users to join differnet channels.
